@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$PATH" | tr ':' \n | grep -c '/'
+cut -f 1 | tail -n +2 | sort -
